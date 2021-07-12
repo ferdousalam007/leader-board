@@ -11,13 +11,16 @@
  }
 
  main {
-     display: flex;
-     justify-content: center;
- }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
  .container {
      width: 870px;
      padding: 30PX;
+     margin-bottom: 21px;
+     border-radius: 8px;
      background-color: #fff;
  }
 
