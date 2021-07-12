@@ -1,43 +1,88 @@
  /* google fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common-style or utilities */
-body{
-    /* margin: 0;
+ /* common-style or utilities */
+ body {
+     /* margin: 0;
     padding: 0; */
-    background-color: #F3F1FF;
-    font-family: 'Poppins', sans-serif;
-}
-main{
-    display: flex;
-    justify-content: center;
-}
-.container{
-    width: 870px;
-    padding: 30PX;
-    background-color: #fff;
-}
-/* top players */
-.section-title{
-    font-size: 24px;
-    color: #562EFF;
-    margin-top: 3px;
-}
-.players{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap:30px ;
-}
+     background-color: #F3F1FF;
+     font-family: 'Poppins', sans-serif;
+ }
 
-.player{
+ main {
+     display: flex;
+     justify-content: center;
+ }
+
+ .container {
+     width: 870px;
+     padding: 30PX;
+     background-color: #fff;
+ }
+
+ hr {
+     border: 1px solid #D1D1D1;
+ }
+
+ /* top players */
+ .section-title {
+     font-size: 24px;
+     color: #562EFF;
+     margin-top: 3px;
+ }
+
+ .top-players {
+     margin-bottom: 22px;
+ }
+
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 30px;
+ }
+
+ .player {
+     display: flex;
+     align-items: center;
+ }
+
+ .player img {
+     width: 56px;
+     height: 56px;
+ }
+
+ .palyer-name {
+     margin-left: 16px;
+     font-size: 18px;
+ }
+
+ /***********************
+    top blog style
+************************/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog{
     display: flex;
-    align-items: center;
 }
-.player img{
-    width: 56px;
-    height: 56px;
-}
-.palyer-name{
-    margin-left: 16px;
-}
+ .blog .thubnail img {
+     width: 224px;
+     height: 127px;
+ }
+ .blog-info{
+     margin-left: 16px;
+ }
+ .blog-info .blog-title {
+     font-size: 20px
+ }
+
+ .blog-info .author {
+     font-size: 16px
+ }
+
+ .blog-info .author a {
+     text-decoration: none;
+     color: #562EFF;
+ }
