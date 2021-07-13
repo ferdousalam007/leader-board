@@ -4,8 +4,8 @@
 
  /* common-style or utilities */
  body {
-     /* margin: 0;
-    padding: 0; */
+      margin: 0;
+      padding: 0;
      background-color: #F3F1FF;
      font-family: 'Poppins', sans-serif;
  }
@@ -27,8 +27,41 @@
  hr {
      border: 1px solid #D1D1D1;
  }
+/***********************
+    navbar style
+************************/
+nav{
+    background: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.navbar-area {
+    width: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 51px;
+    width: 40px;
+}
+.menu-item ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu-item ul li{
+   margin-right: 36px;
+}
+.menu-item ul li a {
+    text-decoration: none;
+    color: #fff;
+}
 
- /* top players */
+
+/***********************
+    top players
+************************/
  .section-title {
      font-size: 24px;
      color: #562EFF;
