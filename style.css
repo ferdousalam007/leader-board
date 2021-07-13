@@ -139,3 +139,47 @@
     color: #FF4A60;
     background: #FFE4E8;
 }
+/*------------------
+ media queries 
+ -------------------*/
+ /*--------------------
+  mobile device  
+ ----------------- */
+ @media only screen and (max-width: 668px) {
+    .container {
+        width: 100%; 
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog .thubnail img {
+        width: 100%;
+        height: auto;
+    }
+    .blog-info {
+        text-align: center;
+    }
+    .player, .blog {
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs, .courses  {
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 20px;
+    }
+    .course .course-banner img {
+        width: 100%;
+        height: auto;
+    }
+    .course-detail {
+        text-align: center;
+    }
+    .course-info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+ }
+ @media only screen and (min-width: 668px) and (max-width: 992px) {
+     
+ }
